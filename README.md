@@ -40,8 +40,7 @@ which usually present an initial "virtual CD-ROM" mode in Linux.(Or something si
 
   Disabling Internal Wi-Fi (Optional but Recommended)
     If your internal interface is wlo1 and the new one is wlx..., disable the internal interface to avoid interference:
-
-     > sudo ip link set wlo1 down
+ > sudo ip link set wlo1 down
 
   Network Management
     If it doesn't ask for a password or doesn't connect to known networks:
