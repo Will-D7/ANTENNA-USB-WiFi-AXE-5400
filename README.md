@@ -8,7 +8,7 @@ which usually present an initial "virtual CD-ROM" mode in Linux.(Or something si
   * Update
   * Disable Secure Boot in BIOS/UEFI
 
-@@ 2- Identificate and change mode
+## 2- Identificate and change mode
 
   >lsusb 
 
