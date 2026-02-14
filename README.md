@@ -8,7 +8,7 @@ which usually present an initial "virtual CD-ROM" mode in Linux.(Or something si
   * Update
   * Disable Secure Boot in BIOS/UEFI
 
-2- Identificate and change mode
+@@ 2- Identificate and change mode
 
   >lsusb 
 
@@ -19,7 +19,7 @@ which usually present an initial "virtual CD-ROM" mode in Linux.(Or something si
  
     > sudo eject /dev/sr0 # OR /dev/sr1 as appropriate 
   
-3- Install Drivers
+## 3- Install Drivers
   We will use the morrownr repository, which is the most up-to-date for the 8852cu/8832cu series and modern kernels (6.8+).
 
   > # Clone the specific repository
@@ -33,7 +33,7 @@ which usually present an initial "virtual CD-ROM" mode in Linux.(Or something si
   When prompted to edit the driver options, select n (No).
   When finished, select y to restart the system.
 
-4- Post-Installation Configuration
+## 4- Post-Installation Configuration
   After restarting, the system may attempt to use both the internal and USB adapters, causing connection conflicts.
 
   Disabling Internal Wi-Fi (Optional but Recommended)
@@ -46,10 +46,10 @@ which usually present an initial "virtual CD-ROM" mode in Linux.(Or something si
     1º. Go to Wi-Fi settings and just "Forget network."
     2º. Reconnect, specifically selecting the USB adapter interface.
 
-5- Verify 
+## 5- Verify 
   To confirm, verify the comand.
   > iwconfig
   Look for the line that mentions IEEE 802.11AC or 802.11AX in the new interface.
 
-6. Have Fun... 
+## 6. Have Fun... 
   Im testing the antenna...
