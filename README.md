@@ -22,11 +22,13 @@ which usually present an initial "virtual CD-ROM" mode in Linux.(Or something si
 ## 3- Install Drivers
   We will use the morrownr repository, which is the most up-to-date for the 8852cu/8832cu series and modern kernels (6.8+).
 
-  > # Clone the specific repository
+  # Clone the specific repository
   > git clone https://github.com/morrownr/rtl8852cu-20240510.git
-  > # Enter the directory
+
+  # Enter the directory
   > cd rtl8852cu-20240510
-  > # Run the automated installation script
+
+  # Run the automated installation script
   > sudo ./install-driver.sh
 
   During installation:
