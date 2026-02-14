@@ -17,7 +17,7 @@ which usually present an initial "virtual CD-ROM" mode in Linux.(Or something si
 
   U need to force the change, u can do it pressing the antenna button or using command line.
  
-    > sudo eject /dev/sr0 # OR /dev/sr1 as appropriate 
+  > sudo eject /dev/sr0 # OR /dev/sr1 as appropriate 
   
 ## 3- Install Drivers
   We will use the morrownr repository, which is the most up-to-date for the 8852cu/8832cu series and modern kernels (6.8+).
